@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <style>
+        .container {
+            margin-top: 40px;
+            width: 550px;
+            height: 180px;
+            border: 3px #073B51;
+            border-radius: 22px;
+            background-color: rgb(232 77 36);
+
+        }
+
+        input {
+
+            margin-top: 10px;
+            margin-left: 10%;
+            width: 140%;
+            height: 100%;
+        }
+        body{
+            background-color:rgba(255,134,75,1);
+        }
+    </style>
+    <title>Venta de Automoviles</title>
+</head>
+
+
+<body>
+    <form method="post" action="taller2.php" method="post">
+        <div class="container">
+            <table>
+                <tr>
+                    <td> <label>
+                            <FONT COLOR="black">Nombre del vendedor:</FONT>
+                        </label></td>
+                    <td><input type="text" name="nombre_vendedor" placeholder="Name Vendedor" required></td>
+                </tr>
+
+                <br>
+                <tr>
+                    <td>
+                        <FONT COLOR="black"><label>Cantidad automoviles vendidos:</FONT></label>
+                    </td>
+                    <td><input type="text" name="cantidad_autos_vendidos"placeholder="Cantiad" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <FONT COLOR="black"><label>Precio total automoviles vendidos:</FONT></label>
+                    </td>
+                    <td><input type="text" name="precio_total"placeholder="Total Vendidos" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>    
+        </div>
+        
+    </form>    
+</body>
+
+</html>

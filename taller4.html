@@ -1,0 +1,86 @@
+<html>
+
+<head>
+	<title>Tabla de Amortizacion</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<style>
+		.container {
+			margin-top: 40px;
+			width: 450px;
+			height: 250px;
+			border: 3px #073B51;
+			border-radius: 22px;
+			background-color: #B8E4F0;
+
+		}
+
+		input {
+
+			margin-top: 10px;
+			margin-left: 10%;
+			width: 200px;
+			height: 25px;
+		}
+		body{
+			background-color: #FFEDC1;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="taller4.php" method="post">
+		<div class="container">
+			<table>
+				<br>
+				<tr>
+					<td>
+						<FONT COLOR="black"><label>Nombre del Cliente:</FONT></label>
+					</td>
+					<td><input type="text" name="nombre"placeholder="Name" required></td>
+				</tr>
+				<tr>
+					<td>
+						<FONT COLOR="black"><label>Cedula del Cliente:</FONT></label>
+					</td>
+					<td><input type="text" name="cedula"placeholder="Documento" required></td>
+				</tr>
+
+
+				<tr>
+					<td>
+						<FONT COLOR="black"><label>Monto del crédito:</FONT></label>
+					</td>
+					<td><input type="text" name="monto_credito"placeholder="Monto" required></td>
+				</tr>
+
+
+				<tr>
+					<td>
+						<FONT COLOR="black"><label>Tasa de interés mensual:</FONT></label>
+					</td>
+					<td><input type="text" name="tasa_interes_mensual"placeholder="Tasa" required></td>
+				</tr>
+
+				<tr>
+					<td>
+						<FONT COLOR="black"><label>Plazo en meses:</FONT></label>
+					</td>
+					<td><input type="text" name="numero_cuotas"placeholder="Plazo" required></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Enviar"></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+
+Nombre del Paciente es: santiago
+
+Indice de Masa Corporal 22.9
+
+Saludable
+
+-----------------------------------------------------------
+
